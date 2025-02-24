@@ -37,9 +37,9 @@ printf("Por favor insira as informações corretamente para um melhor funcioname
 printf("PRIMEIRA CARTA\n");
 
 //entrada e saida de dados char//
-printf("Estado: \n");
+printf("Digite a letra (A a H) do seu Estado: \n");
 scanf(" %s", &estado);
-printf("Codigo da carta:\n");
+printf("Digite o código com a letra do seu estado e a numeração (01 a 04) da carta:\n");
 scanf(" %s", &codigo);
 printf("Nome da cidade:\n");
 scanf(" %s", &cidade);
@@ -72,9 +72,9 @@ float densidadepop2;
 printf("SEGUNDA CARTA\n");
 
 //entrada e saída de dados char//
-printf("Estado: \n");
+printf("Digite a letra (A a H) do seu Estado: \n");
 scanf(" %s", &Estado);
-printf("Codigo da carta:\n");
+printf("Digite o código com a letra do seu estado e a numeração (01 a 04) da carta:\n");
 scanf(" %s", &Codigo);
 printf("Nome da cidade:\n");
 scanf(" %s", &Cidade);
