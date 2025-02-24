@@ -20,7 +20,7 @@ int main() {
 
 
 //declaração de variáveis cidade/carta 1 (Estão mal simplificadas pois o github não lê corretamente)
-char estado;
+char estado[4];
 char codigo[4]; 
 char cidade[40];
 int populacao;
@@ -38,7 +38,7 @@ printf("PRIMEIRA CARTA\n");
 
 //entrada e saida de dados char//
 printf("Estado: \n");
-scanf(" %c", &estado);
+scanf(" %s", &estado);
 printf("Codigo da carta:\n");
 scanf(" %s", &codigo);
 printf("Nome da cidade:\n");
@@ -59,7 +59,7 @@ scanf(" %f %*s", &PIB);
 
 
 //declaração de variáveis cidade/carta 2 (Estão mal simplificadas pois o github não lê corretamente)
-char Estado;
+char Estado[4];
 char Codigo[4]; 
 char Cidade[40];
 int Populacao;
@@ -73,7 +73,7 @@ printf("SEGUNDA CARTA\n");
 
 //entrada e saída de dados char//
 printf("Estado: \n");
-scanf(" %c", &Estado);
+scanf(" %s", &Estado);
 printf("Codigo da carta:\n");
 scanf(" %s", &Codigo);
 printf("Nome da cidade:\n");
@@ -95,7 +95,7 @@ scanf(" %f %*s", &PIBcarta2);
 
 //impressao das carta//
 printf("CARTA DA PRIMEIRA CIDADE\n");
-printf("Estado: %c\n", estado);
+printf("Estado: %s\n", estado);
 printf("Código da carta: %s\n", codigo);
 printf("Nome da cidade: %s\n", cidade);
 printf("População: %d\n", populacao);
@@ -116,7 +116,7 @@ printf("PIB per capita: %.2f reais\n", PIBpercapita);
 
 //impressao das carta da segunda cidade//
 printf("CARTA DA SEGUNDA CIDADE\n");
-printf("Estado: %c\n", Estado);
+printf("Estado: %s\n", Estado);
 printf("Código da carta: %s\n", Codigo);
 printf("Nome da cidade: %s\n", Cidade);
 printf("População: %d\n", Populacao);
