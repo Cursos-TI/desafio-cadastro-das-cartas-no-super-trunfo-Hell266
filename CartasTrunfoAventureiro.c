@@ -71,7 +71,7 @@ float densidadepop2;
 
 printf("SEGUNDA CARTA\n");
 
-//entrada e saida de dados char//
+//entrada e saída de dados char//
 printf("Estado: \n");
 scanf(" %c", &Estado);
 printf("Codigo da carta:\n");
@@ -115,7 +115,7 @@ printf("Densidade populacional: %.2f hab/km²\n", densidadepop);
 printf("PIB per capita: %.2f reais\n", PIBpercapita);
 
 //impressao das carta da segunda cidade//
-printf("CARTA DA SECUNDA CIDADE\n");
+printf("CARTA DA SEGUNDA CIDADE\n");
 printf("Estado: %c\n", Estado);
 printf("Código da carta: %s\n", Codigo);
 printf("Nome da cidade: %s\n", Cidade);
