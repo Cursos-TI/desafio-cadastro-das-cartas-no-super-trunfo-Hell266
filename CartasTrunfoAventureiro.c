@@ -30,7 +30,7 @@ float PIB;
 float PIBpercapita;
 float densidadepop;
 
-printf("BEM VINDO AO SISTEMA DE CADASTRO DAS CARTAS DO JOGO SUPERTRUNFO.\n");
+printf("BEM VINDO(A) AO SISTEMA DE CADASTRO DAS CARTAS DO JOGO SUPERTRUNFO.\n");
 
 printf("Por favor insira as informações corretamente para um melhor funcionamento do programa.\n");
 
