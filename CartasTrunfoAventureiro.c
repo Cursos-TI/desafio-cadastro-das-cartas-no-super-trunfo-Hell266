@@ -99,7 +99,7 @@ printf("Estado: %s\n", estado);
 printf("Código da carta: %s\n", codigo);
 printf("Nome da cidade: %s\n", cidade);
 printf("População: %d\n", populacao);
-printf("Área :%.3f km²\n", area);
+printf("Área :%.2f km²\n", area);
 printf("PIB: %.2f bilhões de reais\n", PIB);
 printf("Número de pontos turísticos: %d\n", turisticos);
 
@@ -120,7 +120,7 @@ printf("Estado: %s\n", Estado);
 printf("Código da carta: %s\n", Codigo);
 printf("Nome da cidade: %s\n", Cidade);
 printf("População: %d\n", Populacao);
-printf("Área :%.3f km²\n", Area);
+printf("Área :%.2f km²\n", Area);
 printf("PIB: %.2f bilhões de reais\n", PIBcarta2);
 printf("Número de pontos turísticos: %d\n", Turisticos);
 
